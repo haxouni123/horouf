@@ -1,0 +1,28 @@
+{
+  "appId": "app.lovable.7077a47c0fa04addb8e1435530a3cade",
+  "appName": "qiraa-sahel-ya",
+  "webDir": "dist",
+  "server": {
+    "url": "https://7077a47c-0fa0-4add-b8e1-435530a3cade.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#F97316",
+      "showSpinner": false,
+      "androidSpinnerStyle": "small",
+      "spinnerColor": "#FFFFFF"
+    },
+    "StatusBar": {
+      "style": "light",
+      "backgroundColor": "#F97316"
+    }
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "ios": {
+    "contentInset": "always"
+  }
+}
